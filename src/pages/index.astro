@@ -1,0 +1,31 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Experience from "@/components/section/Experience.astro";
+import Education from "@/components/section/Education.astro";
+import Projects from "@/components/section/Projects.astro";
+import Skills from "@/components//section/Skills.astro";
+import Hero from "@/components//section/Hero.astro";
+
+import About from "@/components/section/About.astro";
+import KeyBoardManager from "@/components/KeyBoardManager.astro";
+---
+
+<Layout title="Portafolio Imprimible">
+	<main>
+		<Hero />
+		<About />
+		<Experience />
+		<Education />
+		<Projects />
+		<Skills />
+	</main>
+</Layout>
+<KeyBoardManager />
+
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: 100; 
+	}
+</style>

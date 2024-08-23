@@ -1,0 +1,2 @@
+para crear los archivos .astro
+touch ./src/components/{Hero,About,Experience,Skills,Projects}.astro
