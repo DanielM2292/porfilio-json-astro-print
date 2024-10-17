@@ -1,6 +1,74 @@
 ---
-import Section from "@/components/Section.astro"
+import Section from "@/components/Section.astro";
+import { education } from "@/cv.json";
 ---
 
-<Section title="Educacion"/>
+<Section title="Educación">
+  <ul>
+    {
+      education.map(
+        ({ institution, area, studyType, startDate, endDate, score, url }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate !== null ? new Date(endDate).getFullYear() : "Actual";
+          const years = ` ${startYear} - ${endYear}`;
 
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>{institution}</h3>
+                    <h4>{area}</h4>
+                    <h4>
+                      {studyType}
+                    </h4>
+                    <p>Calificación: {score}</p>
+                  </div>
+                  <time datetime="">{years}</time>
+                </header>
+              </article>
+            </li>
+          );
+        }
+      )
+    }
+  </ul>
+</Section>
+<style>
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  article h3 {
+    color: #111;
+  }
+
+  article h4 {
+    color: #222;
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4px;
+  }
+
+  time {
+    color: #555;
+    font-size: 0.85rem;
+  }
+
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+</style>

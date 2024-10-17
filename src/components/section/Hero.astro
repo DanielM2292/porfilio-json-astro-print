@@ -2,40 +2,37 @@
 import { basics } from "@/cv.json";
 import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
-import Phone from "@/icons/Phone.astro";
+import Facebook from "@/icons/Facebook.astro";
+import WhatsApp from "@/icons/WhatsApp.astro";
 import GitHub from "@/icons/GitHub.astro";
-import X from "@/icons/X.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import Ig from "@/icons/Ig.astro";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, image, location, profiles, email } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   Ig,
   LinkedIn,
+  Facebook,
+  WhatsApp
 };
+
 ---
 
 <Section>
   <div class="container">
     <div class="info">
-      <h1>
-        {name}
-      </h1>
-      <h2>
-        {label}
-      </h2>
+      <h1>{name}</h1>
+      <h2>{label}</h2>
       <span>
         <WorldMap />
-        {city},{region}
+        {city}, {region}
       </span>
       <footer>
-        <div class="print">
-          {email} ◾ {phone}
-        </div>
+        <div class="print">{email}</div> 
         {
           email && (
             <a
@@ -49,25 +46,13 @@ const SOCIAL_ICONS: Record<string, any> = {
           )
         }
         {
-          phone && (
-            <a
-              href={`mailto:${phone}`}
-              title={`Llamar por telefono de ${name} al # ${phone}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Phone />
-            </a>
-          )
-        }
-        {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network];
 
             return (
               <a
                 href={url}
-                title={`visitar el perfil de ${name} en ${network}`}
+                title={`Visitar el perfil de ${name} en ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -150,3 +135,4 @@ const SOCIAL_ICONS: Record<string, any> = {
     background: #c5c2c2;
   }
 </style>
+

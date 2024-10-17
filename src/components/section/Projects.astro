@@ -4,6 +4,7 @@ import { projects } from "@/cv.json";
 ---
 
 <Section title="Proyectos">
+  <h3>Todos mis Proyectos los encuentras en mi GitHub</h3>
   <ul>
     {
       projects.map(({ url, description, highlights, name, isActive }) => {
@@ -12,7 +13,7 @@ import { projects } from "@/cv.json";
             <article>
               <header>
                 <h3>
-                  <a href={url} title={`ver proyecto ${name}`}>
+                  <a href={url = 'https://github.com/DanielM2292'} title={`ver proyecto ${name}`}>
                     {name}
                   </a>
                   {isActive && <span>&bull;</span>}

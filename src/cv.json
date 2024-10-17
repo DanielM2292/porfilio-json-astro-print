@@ -2,17 +2,16 @@
   "basics": {
     "name": "Juan Daniel Morales",
     "label": "Computer Engineering Student",
-    "image": "https://scontent.fppn2-1.fna.fbcdn.net/v/t39.30808-6/404293494_3662195177393436_3803771884998390043_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHPyjRZ2MKA7XCpo1n7oPU-jHsclc9DTJiMexyVz0NMmM6V5H6iFcWDvFqAqYDObpx8xE7ICU7A7eg1A1VLNtve&_nc_ohc=bYZphvq3IaoQ7kNvgGxA4KL&_nc_ht=scontent.fppn2-1.fna&oh=00_AYApQVyEHtupwOdJ7QEz_x928ZqLqU2zLsYXzaJtR6I1ZA&oe=66CED2DA",
+    "image": "https://scontent-bog2-2.xx.fbcdn.net/v/t39.30808-6/404293494_3662195177393436_3803771884998390043_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHPyjRZ2MKA7XCpo1n7oPU-jHsclc9DTJiMexyVz0NMmM6V5H6iFcWDvFqAqYDObpx8xE7ICU7A7eg1A1VLNtve&_nc_ohc=TI4TsfxuLBAQ7kNvgHZWtp-&_nc_zt=23&_nc_ht=scontent-bog2-2.xx&_nc_gid=AY3z-FScj5LuCvdPyyaBRMw&oh=00_AYD15ZCv80llxZ2kUocxfPV4WjEv_DmKn4ZfzeGTpYybuw&oe=67163C1A",
     "email": "danielns871@gmail.com",
-    "phone": "+57 3178492581",
     "url": "https://datasoftcolll.com",
-    "summary": "Tomamos ideas de ficción entre cómics, películas y videojuegos para crear prototipos reales funcionales como una forma de inspirar a los jóvenes en el campo de la ciencia, la tecnología y la ingeniería.",
+    "summary": "Soy Estudiante de Ingenieria Informática, voy en 8° Semestre y me apaciona el desarrollo de Interfaz de usuario, aunque tambien tengo habilidades en diferentes campos de esta maravillosa carrera.",
     "location": {
       "address": "Nariño city",
       "postalCode": "32002",
       "city": "Túquerres Nariño",
       "countryCode": "ES",
-      "region": " Colombia"
+      "region": "Colombia"
     },
     "profiles": [
       {
@@ -24,38 +23,27 @@
         "network": "GitHub",
         "username": "DanielM2292",
         "url": "https://github.com/DanielM2292"
+      },
+      {
+        "network": "Facebook",
+        "username": "Daniel Morales",
+        "url": "https://www.facebook.com/profile.php?id=100008089683461"
+      }, 
+      {
+        "network": "WhatsApp",
+        "username": "+573178492581",
+        "url": "https://wa.me/573178492581"
       }
+      
     ]
   },
   "work": [
     {
-      "name": "BrainScan",
+      "name": "Desarrollo de un programa para una empresa",
       "position": "Programación Web",
-      "url": "https://twitch.tv/tecnopolis",
-      "startDate": "2021-01-01",
+      "startDate": "2024-06-01",
       "endDate": null,
-      "summary": "Espectador",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Ade",
-      "position": "Lead Frontend Architect",
-      "url": "https://t",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
-      "highlights": [
-        "Started the company"
-      ]
-    },
-    {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Descripcion la informa.",
+      "summary": "Aprendiz",
       "highlights": [
         "Started the company"
       ]
@@ -78,45 +66,20 @@
     {
       "institution": "Corporación Universitaria Autónoma de Nariño",
       "url": "https://www.uo/index.html",
-      "area": "Ingeniero de Informático",
+      "area": "Ingenieria Informática",
       "studyType": "Bachelor",
-      "startDate": "2003-01-01",
-      "endDate": "2009-01-01",
-      "score": "4.0",
+      "startDate": "2020-08-01",
+      "endDate": "2024-08-01",
+      "score": "4.5",
       "courses": [
         "DB1101 - Basic SQL"
       ]
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "httpcom",
-      "summary": "Description…"
-    }
-  ],
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
+      "level": "Medio",
       "keywords": [
         "Desarrollo Web",
         "Frontend"
@@ -124,7 +87,7 @@
     },
     {
       "name": "CSS",
-      "level": "Master",
+      "level": "Medio",
       "keywords": [
         "Desarrollo Web",
         "Frontend",
@@ -133,7 +96,7 @@
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Medio",
       "keywords": [
         "Desarrollo Web",
         "Frontend",
@@ -142,18 +105,8 @@
       ]
     },
     {
-      "name": "Tailwind",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Frontend",
-        "CSS Framework",
-        "Diseño Responsive"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Avanzado",
+      "name": "Java",
+      "level": "Medio",
       "keywords": [
         "Desarrollo Web",
         "Frontend",
@@ -162,18 +115,8 @@
       ]
     },
     {
-      "name": "Node",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web",
-        "Backend",
-        "JavaScript",
-        "Servidor"
-      ]
-    },
-    {
       "name": "MySQL",
-      "level": "Avanzado",
+      "level": "Medio",
       "keywords": [
         "Bases de Datos",
         "SQL",
@@ -182,17 +125,8 @@
       ]
     },
     {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente"
-      ]
-    },
-    {
       "name": "GitHub",
-      "level": "Avanzado",
+      "level": "Bajo",
       "keywords": [
         "Control de Versiones",
         "Colaboración",
@@ -202,7 +136,7 @@
     },
     {
       "name": "Next.js",
-      "level": "Avanzado",
+      "level": "Bajo",
       "keywords": [
         "Desarrollo Web",
         "Frontend",
@@ -213,7 +147,7 @@
     },
     {
       "name": "React",
-      "level": "Avanzado",
+      "level": "Medio",
       "keywords": [
         "Desarrollo Web",
         "Frontend",
@@ -249,66 +183,38 @@
   ],
   "projects": [
     {
-      "name": "codes",
+      "name": "Tienda",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Proyecto donde se desarrollo una plantilla para una tienda",
       "highlights": [
-        "Elige tu propia aventura",
         "En desarrollo"
       ],
       "url": "https:odes"
     },
     {
-      "name": "programacion",
+      "name": "API CRUD",
       "isActive": true,
-      "description": "Retos",
+      "description": "Este Pryecto es una API REST con CRUD",
       "highlights": [
-        "millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "React, MongoDB"
       ],
       "url": "demos en linea"
     },
     {
-      "name": "proyetosdesarrollo",
+      "name": "Portafolio",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Es Exactamente este Portafolio",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
       ],
       "url": "demos en lineas://proyetosdesarrollo.dev"
     },
     {
-      "name": "link",
+      "name": "Api Class",
       "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "description": "Una Api de prueba",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "demos en lineas://codi.link",
-      "github": "demos en lineas:/nk"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500"
-      ],
-      "url": "demos en lineas://pruebastecnicas.com",
-      "github": "www."
-    },
-    {
-      "name": "ponencia",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "demos en lineas://paginaweb.com"
+
+      ]
     }
   ]
 }
